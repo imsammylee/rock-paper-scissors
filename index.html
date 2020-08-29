@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="page-title"><span style=color:rgba(239,84,128,1)>Rock</span><span style=color:rgb(255,222,85)>Paper</span><span style=color:rgb(116,218,226)>Scissors</span></h1>
+        <div class="slogan">May the odds be ever in your favor.</div>
+        <div class="round-number">Round 1</div>
+    </header>
+
+<div class="game-box">
+    <section class="play-container">
+        <div class="play-box">
+          <h2>Player</h2>
+          <img class="player-selection" src="rock_image.png">
+        </div>
+
+        <div class="vertical-line"></div>
+
+        <div class="play-box">
+          <h2>Machine</h2>
+          <img class="computer-selection" src="rock_image.png">
+        </div>
+    </section>
+    
+    <section class="scoreboard">
+        <div class="player-score">0</div>
+        <div class="scoreboard-label">Scoreboard</div>
+        <div class="computer-score">0</div>
+    </section>
+</div>
+
+    <div class="result">*Best of 5*</div>
+
+    <section class="choices">
+        <div class="rock" id="rock">
+            <img src="rock_image.png" alt="rock">
+        </div>
+        <div class="paper" id="paper">
+            <img src="paper_image.png" alt="paper">
+        </div>
+        <div class="scissors" id="scissors">
+            <img src="scissors_image.png" alt="scissors">
+        </div>
+        
+    </section>
+
+    <p id="command">Make your move.</p>
+    
+    <div class="reset">
+        <button class="restart-button"></button>
+    </div>
+    <footer>
+        <p>
+          Developed by Sammy Lee
+        </p>
+      </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
